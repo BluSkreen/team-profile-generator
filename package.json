@@ -1,0 +1,26 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "![license badge](https://img.shields.io/badge/license-MIT-blue)",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BluSkreen/team-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "Jason Duran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BluSkreen/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/BluSkreen/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
