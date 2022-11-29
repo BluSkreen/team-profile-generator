@@ -121,6 +121,7 @@ function getMember(role, members) {
     });
 }
 
+// create an index.html according the users input
 function createPage(members) {
   let employees = members;
   console.log(members);
@@ -196,7 +197,6 @@ function createPage(members) {
     cards = cards + cardTemplate;
   }
   let newPage = aboveCardTemplate + cards + belowCardTemplate;
-
   fs.writeFile("./src/index.html", newPage, (err) =>
     err ? console.error(err) : console.log("success!")
   );
